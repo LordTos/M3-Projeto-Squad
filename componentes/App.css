@@ -1,7 +1,33 @@
-.container{
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 0.2rem;
+.container {
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #1bfa4b, #000000);
+}
+
+.content form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
 }
 form .user-details .input-box {
     margin-bottom: 15px;
@@ -33,44 +59,6 @@ form .input-box span.details {
     background-color: rgb(255, 255, 255);
 }
 
-form .plano-details .plano-title {
-    font-size: 20px;
-    font-weight: 500;
-}
-
-form .category {
-    display: flex;
-    width: 80%;
-    margin: 14px 0px;
-    justify-content: space-between;
-}
-
-form .category label {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-form .category label .dot {
-    height: 18px;
-    width: 18px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background: #d9d9d9;
-    border: 5px solid transparent;
-    transition: all 0.3s ease;
-}
-
-#dot-1:checked~.category label .one,
-#dot-2:checked~.category label .two,
-#dot-3:checked~.category label .three {
-    background: #9b59b6;
-    border-color: #d9d9d9;
-}
-
-form input[type="radio"] {
-    display: none;
-}
 
 form .button {
     height: 45px;
@@ -88,13 +76,14 @@ form .button input {
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(135deg, #00fa2a, #010002);
 }
+
 
 
 form .button input:hover {
     /* transform: scale(0.99); */
-    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(-135deg, #00ff22, #08030a);
 }
 
 @media(max-width: 584px) {
@@ -107,10 +96,6 @@ form .button input:hover {
         width: 100%;
     }
 
-    form .category {
-        width: 100%;
-    }
-
     .content form .user-details {
         max-height: 300px;
         overflow-y: scroll;
@@ -118,11 +103,5 @@ form .button input:hover {
 
     .user-details::-webkit-scrollbar {
         width: 5px;
-    }
-}
-
-@media(max-width: 459px) {
-    .container .content .category {
-        flex-direction: column;
     }
 }

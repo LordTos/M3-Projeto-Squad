@@ -17,10 +17,10 @@ function App() {
       <Navbar />
 
        <main>
-        <div className="card-post">
-          <h1>Criar postagem</h1>
-       <div className="line-post"></div>
-       <div className="card-body-post">
+       <div className="container">
+          <h1 className='title'>Cadastro</h1></div>
+       <div className="line-post">
+       <div className="content">
 
 
        <form className="form_id">
@@ -37,26 +37,38 @@ function App() {
                                 <input className="sobrenome"/>
                             </div>
                             <div className="input-box">
-                                <span className="details">RG</span>
-                                <input className="rg" />
-                            </div>
-                            <div className="input-box">
-                                <span className="details">Email</span>
-                                <input className="email" />
-                            </div>
-                            <div className="input-box">
-                                <span cclassName="details">Senha</span>
+                                <span className="details">senha</span>
                                 <input  className="senha"/>
                             </div>
                             <div className="input-box">
                                 <span className="details">Repetir senha</span>
                                 <input type="password" className="repetir_senha"/>
-                            </div> </div>
+                            </div>
+                            <div className="input-box">
+                                <span className="details">idade</span>
+                                <input  className="idade"/>
+                            </div>
+                            <div className="input-box">
+                                <span className="details">Peso</span>
+                                <input  className="Peso"/>
+                            </div>
+                            <div className="input-box">
+                                <span className="details">Altura</span>
+                                <input  className="Altura"/>
+                            </div>
+                            <div className="input-box">
+                                <span className="details">Objetivo</span>
+                                <input  className="Name"/>
+                            </div>
+                            <div className="input-box">
+                                <span className="details">Plano</span>
+                                <input  className="plano"/>
+                            </div>
+                             </div>
 
-<div className="btn-post">
-  <button type="submit">Enviar</button>
-</div>
-
+                        <div className="button">
+                            <input className="submit" type="submit" value="Se registrar" />
+                        </div>
         </form>
        </div>
         </div>
