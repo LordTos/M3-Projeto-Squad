@@ -11,11 +11,6 @@ import Produtos from './routes/Produtos'
 import DadosClientes from './routes/DadosClientes'
 import Login from './routes/Login'
 
-const Private = ({ Item })=>{
-  const signed = false 
-
-  return signed > 0 ? <Item /> : <Login />
-}
 
 const router = createBrowserRouter([
   {
