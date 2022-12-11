@@ -90,7 +90,7 @@ function Navbar() {
               </div>
             </div>
           </li>
-          <li ref={navLinks4} className="navbarListaLi4"><a href="/" ><img src={carrinho} alt="Icone Carrinho" /></a></li>
+          <li ref={navLinks4} className="navbarListaLi4"><Link to={`/carrinho`} ><img src={carrinho} alt="Icone Carrinho" /></Link></li>
         </ul>
       </nav>
     </header>
