@@ -5,9 +5,6 @@ import Footer from './componentes/Footer.jsx'
 
 function App() {
 
-  
-
-
   return (
     <div className="App">
       <Navbar />
@@ -15,7 +12,6 @@ function App() {
       <div className="conteudo_vazio"></div>
       <Footer />
     </div>
-    
   )
 }
 
