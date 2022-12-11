@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import { createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Route} from 'react-router-dom'
 import './index.css'
 
 // Paginas
@@ -10,6 +10,7 @@ import Home from './routes/Home'
 import Produtos from './routes/Produtos'
 import DadosClientes from './routes/DadosClientes'
 import Login from './routes/Login'
+import Edit from './routes/Edit'
 
 
 const router = createBrowserRouter([
@@ -39,8 +40,11 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <Cadastro /> 
+      },
+      {
+        path: "/editardados",
+        element: <Edit />
       }
-
     ]
   }
 ])
