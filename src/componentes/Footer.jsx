@@ -20,20 +20,20 @@ function Footer1() {
             <div className="footer-col">
               <h4>Obter ajuda</h4>
               <ul>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">transporte</a></li>
-                <li><a href="">Devoluçoes</a></li>
-                <li><a href="">status do pedido</a></li>
-                <li><a href="">opçoes de pagamento</a></li>
+                <li><a href="">Qualquer coisa</a></li>
+                <li><a href="">Qualquer coisa</a></li>
+                <li><a href="">Qualquer coisa</a></li>
+                <li><a href="">Qualquer coisa</a></li>
+                <li><a href="">Qualquer coisa</a></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>Loja Online</h4>
               <ul>
-                <li><a href="">Relogios</a></li>
-                <li><a href="">saco</a></li>
-                <li><a href="">calçado</a></li>
-                <li><a href="">endereço</a></li>
+                <li><a href="">Qualquer coisa</a></li>
+                <li><a href="">Qualquer coisa</a></li>
+                <li><a href="">Qualquer coisa</a></li>
+                <li><a href="">Qualquer coisa</a></li>
               </ul>
             </div>
             <div className="footer-col">
