@@ -1,10 +1,10 @@
 import './Footer.css'
 
-function Footer1() {
+function Footer() {
   return (
+
     <div className='wrapper'>
       
-     
       <footer className='footer'>
         <div className="container-footer">
           <div className="row-footer">
@@ -51,12 +51,10 @@ function Footer1() {
               </div>
             </div>
       
-      
           </div>
         </div>
       </footer>
     </div>
   )
 }
-
-export default Footer1
+export default Footer
