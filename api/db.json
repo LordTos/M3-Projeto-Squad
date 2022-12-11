@@ -145,7 +145,7 @@
       "tipo": "whey",
       "name": "Whey Protein Basic",
       "status": true,
-      "valor": "R$41.40",
+      "valor": 41.40,
       "gramas": "1kg",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/11/img-product.png"
     },
@@ -154,7 +154,7 @@
       "tipo": "whey",
       "name": "Whey Protein Concentrado",
       "status": true,
-      "valor": "R$99,00",
+      "valor": 99.00,
       "gramas": "1kg",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/185/produto-selo-topo-new-v3.png"
     },
@@ -163,7 +163,7 @@
       "tipo": "whey",
       "name": "Whey Protein Isolado",
       "status": true,
-      "valor": "R$144,00",
+      "valor": 144.00,
       "gramas": "1kg",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/196/whey-isolado-growth-v2.png"
     },
@@ -172,7 +172,7 @@
       "tipo": "whey",
       "name": "Whey Protein Hidrolisado",
       "status": true,
-      "valor": "R$216,00",
+      "valor": 216.00,
       "gramas": "1kg",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/195/produto-principal.png"
     },
@@ -181,7 +181,7 @@
       "tipo": "creatina",
       "name": "Creatina Monohidratada",
       "status": true,
-      "valor": "R$40,50",
+      "valor": 40.50,
       "gramas": "100g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/71/creatina-monohidratada-100g-growth-supplements.png"
     },
@@ -190,7 +190,7 @@
       "tipo": "creatina",
       "name": "Creatina Monohidratada - (Creapure)",
       "status": false,
-      "valor": "R$45,00",
+      "valor": 45.00,
       "gramas": "100g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/69/creatina-creapure-100g-growth-supplements.png"
     },
@@ -199,7 +199,7 @@
       "tipo": "creatina",
       "name": "Creatina Monohidratada",
       "status": true,
-      "valor": "R$79,92",
+      "valor": 79.92,
       "gramas": "250g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/72/creatina-monohidratada-growth.png"
     },
@@ -208,7 +208,7 @@
       "tipo": "creatina",
       "name": "Creatina Monohidratada - (Creapure)",
       "status": false,
-      "valor": "R$89,99",
+      "valor": 89.99,
       "gramas": "250g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/70/creatina-creapure-growth.png"
     },
@@ -217,7 +217,7 @@
       "tipo": "vitamina",
       "name": "Vitamina C (120 caps)",
       "status": true,
-      "valor": "R$14,40",
+      "valor": 14.40,
       "gramas": "60g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/173/vitamina-c-120caps-growth-supplements.png"
     },
@@ -226,7 +226,7 @@
       "tipo": "vitamina",
       "name": "Óleo de Peixe - Ômega 3 (75 Softgel)",
       "status": true,
-      "valor": "R$25,20",
+      "valor": 25.20,
       "gramas": "109g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/111/oleo-peixe-growth.png"
     },
@@ -235,7 +235,7 @@
       "tipo": "vitamina",
       "name": "Multivitamínico - (120 cáps) ",
       "status": true,
-      "valor": "R$36,90",
+      "valor": 36.90,
       "gramas": "84g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/107/produto-principal.png"
     },
@@ -244,7 +244,7 @@
       "tipo": "vitamina",
       "name": "Óleo de Peixe Ultra (75 Softgel)",
       "status": true,
-      "valor": "R$42,30",
+      "valor": 42.3,
       "gramas": "109g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/112/oleo-de-peixe-ultra-75caps-growth-supplements.png"
     },
@@ -253,7 +253,7 @@
       "tipo": "pre-treino",
       "name": "Pré-treino Challenger",
       "status": true,
-      "valor": "R$90,00",
+      "valor": 90.00,
       "gramas": "300g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/123/pre-treino-challenger.webp"
     },
@@ -262,7 +262,7 @@
       "tipo": "pre-treino",
       "name": "Pré-Treino Haze Hardcore",
       "status": true,
-      "valor": "R$103,50",
+      "valor": 103.50,
       "gramas": "300g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1500/haze-hardcore-pre-workout-growth-v2.png"
     },
@@ -271,7 +271,7 @@
       "tipo": "pre-treino",
       "name": "Pré-treino Insanity",
       "status": true,
-      "valor": "R$108,00",
+      "valor": 108.00,
       "gramas": "300g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1069/insanity-300g-growth-supplements-v3.png"
     },
@@ -280,7 +280,7 @@
       "tipo": "pre-treino",
       "name": "GFOCUS",
       "status": true,
-      "valor": "R$198,00",
+      "valor": 198.00,
       "gramas": "300g",
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1714/gfocus-300g-growth-supplements-v2.png"
     },
@@ -290,7 +290,7 @@
       "name": "Coqueteleira 600ml",
       "cor": "Preta, Branca, Vermelha, Rosa, Azul",
       "status": true,
-      "valor": "R$8,10",
+      "valor": 8.10,
       "imagem": "https://www.gsuplementos.com.br/upload/produto/imagem/b_coqueteleira-simples-growth-supplements.png"
     },
     {
@@ -299,7 +299,7 @@
       "name": "Coqueteleira 3 compartimentos (com MixBall) 600ml",
       "cor": "Preta, Transparente, Rosa, Azul",
       "status": true,
-      "valor": "R$19,80",
+      "valor": 19.80,
       "imagem": "https://www.gsuplementos.com.br/upload/produto/imagem/b_coqueteleira-3-compartimentos-com-mixball-growth-supplements.png"
     },
     {
@@ -308,7 +308,7 @@
       "name": "Galão Preto 2 Litros",
       "cor": "Preta, Transparente, Rosa, Azul",
       "status": true,
-      "valor": "R$20,70",
+      "valor": 20.70,
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1364/galao-2litros-growth-supplements-preto.png"
     },
     {
@@ -317,7 +317,7 @@
       "name": "Balança de cozinha",
       "cor": "Branca",
       "status": true,
-      "valor": "R$31,50",
+      "valor": 31.50,
       "imagem": "https://www.gsuplementos.com.br/upload/growth-layout-personalizado/produto/1238/produto-balanca.png"
     }
   ],
