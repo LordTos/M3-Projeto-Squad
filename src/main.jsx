@@ -42,7 +42,7 @@ const router = createBrowserRouter([
         element: <Cadastro /> 
       },
       {
-        path: "/editardados",
+        path: "/editardados/:id",
         element: <Edit />
       }
     ]
