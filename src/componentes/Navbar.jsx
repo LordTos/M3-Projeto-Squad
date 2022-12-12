@@ -90,7 +90,20 @@ function Navbar() {
               </div>
             </div>
           </li>
-          <li ref={navLinks4} className="navbarListaLi4"><Link to={`/carrinho`} ><img src={carrinho} alt="Icone Carrinho" /></Link></li>
+          <li
+            ref={navLinks4}
+            className="navbarListaLi4"
+          >
+            <Link to={`/carrinho`}>
+              <div className="cartIcon">
+                <img
+                  src={carrinho}
+                  alt="Icone Carrinho"
+                />
+                {itemsCount > 0 && <span>{itemsCount}</span>}
+              </div>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
