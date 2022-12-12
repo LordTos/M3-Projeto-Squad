@@ -1,8 +1,8 @@
 
 import styles from "./CardsPlanos.module.css"
-import imagem1 from "./img/1.png"
-import imagem2 from "./img/2.png"
-import imagem3 from "./img/3.png"
+import imagem1 from "./imagem/1.png"
+import imagem2 from "./imagem/2.png"
+import imagem3 from "./imagem/3.png"
 
 
 function CardsPlanos() {
