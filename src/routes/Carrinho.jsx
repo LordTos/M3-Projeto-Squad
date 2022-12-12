@@ -1,4 +1,4 @@
-import { useCart } from "../components/CartContext";
+import { useCart } from "../componentes/CartContext";
 import styles from "./Carrinho.module.css";
 
 function Carrinho() {
