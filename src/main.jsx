@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import { createBrowserRouter, RouterProvider, Route} from 'react-router-dom'
 import './index.css'
+import { CartProvider } from "./components/CartContext"
 
 // Paginas
 import Cadastro from './routes/Cadastro'
@@ -11,6 +12,7 @@ import Produtos from './routes/Produtos'
 import DadosClientes from './routes/DadosClientes'
 import Login from './routes/Login'
 import Edit from './routes/Edit'
+import Carrinho from './routes/Carrinho'
 
 
 const router = createBrowserRouter([
@@ -44,13 +46,19 @@ const router = createBrowserRouter([
       {
         path: "/editardados/:id",
         element: <Edit />
-      }
+      },
+      {
+        path: "/carrinho",
+        element: <Carrinho />,
+      },
     ]
   }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router}/>
-  </React.StrictMode>
+  <CartProvider>
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  </CartProvider>
 )
