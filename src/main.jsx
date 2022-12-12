@@ -56,6 +56,7 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  // envelopamento para todas as páginas conseguirem usar o carrinho
   <CartProvider>
     <React.StrictMode>
       <RouterProvider router={router} />
