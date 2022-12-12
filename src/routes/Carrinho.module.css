@@ -81,7 +81,7 @@
 }
 
 .btnRemover {
-  color: #000;
+  color: #ff0000;
   cursor: pointer;
   grid-row-start: 3;
   width: 10em;
