@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Cards.module.css"
-import academia4 from "./img/academia4.png"
-import academia5 from "./img/academia5.png"
-import academia6 from "./img/academia6.png"
+import academia4 from "./imagem/academia4.png"
+import academia5 from "./imagem/academia5.png"
+import academia6 from "./imagem/academia6.png"
 
 
 function Cards() {
