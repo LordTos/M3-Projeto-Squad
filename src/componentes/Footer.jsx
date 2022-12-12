@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
+
+
 
 function Footer() {
   return (
-
     <div className='wrapper'>
       
+     
       <footer className='footer'>
         <div className="container-footer">
           <div className="row-footer">
@@ -17,27 +20,18 @@ function Footer() {
                 <li><a href="">Programa de afiliados</a></li>
               </ul>
             </div>
-            <div className="footer-col">
-              <h4>Obter ajuda</h4>
-              <ul>
-                <li><a href="">Qualquer coisa</a></li>
-                <li><a href="">Qualquer coisa</a></li>
-                <li><a href="">Qualquer coisa</a></li>
-                <li><a href="">Qualquer coisa</a></li>
-                <li><a href="">Qualquer coisa</a></li>
-              </ul>
-            </div>
+            
             <div className="footer-col">
               <h4>Loja Online</h4>
               <ul>
-                <li><a href="">Qualquer coisa</a></li>
-                <li><a href="">Qualquer coisa</a></li>
-                <li><a href="">Qualquer coisa</a></li>
-                <li><a href="">Qualquer coisa</a></li>
+                <li><Link to={`/produtos`}>Creatina</Link></li>
+                <li><Link to={`/produtos`}>Whey Protein</Link></li>
+                <li><Link to={`/produtos`}>Pré-treino</Link></li>
+                <li><Link to={`/produtos`}>Vitaminas</Link></li>
               </ul>
             </div>
             <div className="footer-col">
-              <h4>Loja Online</h4>
+              <h4>Fale Conosco</h4>
               <div className="form-sub">
                 <form action=""><input type="email" placeholder='Digite seu e-mail' required/>
                 <button>Enviar</button>
@@ -51,10 +45,12 @@ function Footer() {
               </div>
             </div>
       
+      
           </div>
         </div>
       </footer>
     </div>
   )
 }
+
 export default Footer
