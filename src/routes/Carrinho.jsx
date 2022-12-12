@@ -66,7 +66,7 @@ function Carrinho() {
               </div>
 
               <div className={styles.totalProduto}>
-                <p>R${product.valor * quantity}</p>
+                <p>R${parseFloat((product.valor * quantity).toFixed(2))}</p>
               </div>
             </section>
           );
