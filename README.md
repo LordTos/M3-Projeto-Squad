@@ -2,12 +2,12 @@
 
 ## Trabalho em Grupo pelo SENAC/Resilia
 
-### Co-facilitador: Matheus Keher
-### Gestora de Gente: Ana Beatriz
-### Gestor de conhecimento: Fabiano Souza
-### Collab I: Thiago Bomfim
-### Collab II: Matheus Freire
-### Collab III/Relator: Thiago Sant' Anna
+### Co-facilitador: Matheus Keher.
+### Gestora de Gente: Ana Beatriz.
+### Gestor de conhecimento: Fabiano Souza.
+### Collab I: Thiago Bomfim.
+### Collab II: Matheus Freire.
+### Collab III/Relator: Thiago Sant' Anna.
 
 Esse é nosso 3 projeto em grupo, utilizamos o React aprendido no módulo 3.
 Nos foi proposto utilizarmos o Server JSon do projeto individual para fazermos um site baseado no tema do mesmo. Decidimos utilizar o server JSon do Thiago Bomfim, tema Academia.
