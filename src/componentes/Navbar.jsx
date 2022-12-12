@@ -5,7 +5,7 @@ import SearchInput from "../Searchinput"
 import './Navbar.css'
 import carrinho from './imagem/carrinho-de-compras.png'
 import logo from './imagem/logo.png'
-
+import { useCart } from "./CartContext"
 
 
 
@@ -20,7 +20,13 @@ function Navbar() {
   const navLinks2 = useRef()
   const navLinks3 = useRef()
   const navLinks4 = useRef()
+  
+  const cart = useCart();
 
+  // função para mostrar os itens somados no carrinho
+  const itemsCount = Object.keys(cart.cart).reduce((prev, curr) => {
+    return prev + cart.cart[curr].quantity;
+  }, 0);
 
   useEffect(() => {
     (async () => {
