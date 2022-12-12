@@ -15,3 +15,4 @@ Esse Projeto nos deu muito trabalho, creio que o Bomfim ficou um pouco sobrecarr
 
 Esse projeto tem fins educativos, o repositório esta publico, fiquem a vontade para mexer e opinarem.
 
+Apresentação: [Apresentação Iron Shape.pdf](https://github.com/LordTos/M3-Projeto-Squad/files/10208561/Apresentacao.Iron.Shape.pdf)
