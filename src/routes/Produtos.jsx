@@ -3,6 +3,7 @@ import { useCart } from "../componentes/CartContext";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import "./Produtos.css";
+import iconeCartBtn from '../componentes/imagem/iconecartbtn.png'
 
 function Produtos() {
   const [produtos, setProdutos] = useState([]);
@@ -33,25 +34,32 @@ function Produtos() {
   return (
     <>
       <div className="row">
+
         {produtos.map(produto => (
           <div
             className="card green"
             key={produto.id}
           >
-            <img
-              className="image"
-              src={produto.imagem}
-              alt={produto.name}
-            />
+            <div className="containerImgProdutos">
+              <img
+                className="image"
+                src={produto.imagem}
+                alt={produto.name}
+              />
+            </div>
 
-            <h2>{produto.name}</h2>
-            <h3>R${produto.valor}</h3>
+            <div className="containerTextosProdutos">
+              <h2>{produto.name}</h2>
+              <h3>R${parseFloat(produto.valor)}</h3>
+
+            </div>
+            <div className="containerBtnProdutos">
             <button
-              className="btnCarrinho"
-              onClick={add(produto)}
-            >
-              Adicionar ao Carrinho
+            className="btnCarrinho"
+            onClick={add(produto)}>
+            Produtos <img src={iconeCartBtn} alt="iconeBtnCart"/>
             </button>
+            </div>
           </div>
         ))}
       </div>
